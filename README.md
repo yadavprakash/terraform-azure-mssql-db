@@ -12,8 +12,7 @@
 - [Outputs](#outputs)
 
 ## Introduction
-This module provides a Terraform configuration for deploying various Azure resources as part of your infrastructure. The configuration includes the deployment of resource groups, virtual networks, subnets, network security groups, Azure Key Vault, and virtual machines.
-
+This repository contains Terraform code to deploy resources on Microsoft Azure, including a resource group and a mssql database.
 ## Usage
 To use this module, you should have Terraform installed and configured for AZURE. This module provides the necessary Terraform configuration
 for creating AZURE resources, and you can customize the inputs as needed. Below is an example of how to use this module:
