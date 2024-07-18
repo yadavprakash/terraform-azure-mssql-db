@@ -8,7 +8,7 @@
 - [Examples](#examples)
 - [Author](#author)
 - [License](#license)
-- [Inputs](#inputs)
+- [Inputs](#inputs)[output.tf](output.tf)
 - [Outputs](#outputs)
 
 ## Introduction
@@ -24,7 +24,7 @@ for creating AZURE resources, and you can customize the inputs as needed. Below 
 ```hcl
 module "mssql-server" {
   depends_on = [module.subnet]
-  source      = "git::https://github.com/opsstation/terraform-azure-mssql-db.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-azure-mssql-db.git?ref=v1.0.0"
 
   sqlserver_name = "testmssql1"
   database_name  = "demomssqldb"
@@ -45,10 +45,10 @@ module "mssql-server" {
 This example demonstrates how to create various AZURE resources using the provided modules. Adjust the input values to suit your specific requirements.
 
 ## Examples
-For detailed examples on how to use this module, please refer to the [examples](https://github.com/opsstation/terraform-azure-mssql-db/blob/master/example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [examples](https://github.com/yadavprakash/terraform-azure-mssql-db/blob/master/example) directory within this repository.
 
 ## License
-This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/opsstation/terraform-azure-mssql-db/blob/master/LICENSE) file for more details.
+This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/yadavprakash/terraform-azure-mssql-db/blob/master/LICENSE) file for more details.
 
 ## Author
 Your Name
@@ -72,7 +72,7 @@ Replace **MIT** and **Cypik** with the appropriate license and your information.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/opsstation/terraform-azure-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/yadavprakash/terraform-azure-labels.git | v1.0.0 |
 
 ## Resources
 
