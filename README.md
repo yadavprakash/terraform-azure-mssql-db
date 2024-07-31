@@ -24,7 +24,7 @@ for creating AZURE resources, and you can customize the inputs as needed. Below 
 ```hcl
 module "mssql-server" {
   depends_on = [module.subnet]
-  source      = "git::https://github.com/yadavprakash/terraform-azure-mssql-db.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-azure-mssql-db.git"
 
   sqlserver_name = "testmssql1"
   database_name  = "demomssqldb"
